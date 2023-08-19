@@ -9,12 +9,12 @@ function Header() {
           <NavItem href="#landing-section" duration="400">
             Home
           </NavItem>
-          <NavItem href="#about" duration="600">
+          {/* <NavItem href="#about" duration="600">
             About
           </NavItem>
           <NavItem href="#projects" duration="800">
             Projects
-          </NavItem>
+          </NavItem> */}
           <NavItem href="#experience" duration="1000">
             Experience
           </NavItem>
