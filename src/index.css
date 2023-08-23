@@ -443,7 +443,7 @@ p {
 
 .drawing img {
   width: auto;
-  /* max-width: 400px; */
+  max-width: 600px;
   border-radius: 10px;
 }
 
@@ -463,8 +463,8 @@ p {
   color: #ffffff;
   /* color: black; */
   border-radius: 50%;
-  width: 100px; /* Adjust as needed */
-  height: 100px; /* Adjust as needed */
+  width: 75px; /* Adjust as needed */
+  height: 75px; /* Adjust as needed */
   /* text-align: center; */
   display: block;
   text-decoration: none;
