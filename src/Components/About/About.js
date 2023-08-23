@@ -7,7 +7,11 @@ function About() {
       <SectionTitle name="Contact Me" />
       <div className="about-container">
         <div className="drawing">
-          <img src="logo192.png" alt="Your Image" />
+          <img
+            src="personalPic.jpg"
+            alt="Your Image"
+            className="personal-pic"
+          />
         </div>
         <div className="social-btns">
           <a href="mailto:spencersdgriffin@gmail.com">
