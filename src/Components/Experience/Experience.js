@@ -7,7 +7,7 @@ function Experience() {
   const selectedExperience = experienceData[selectedExperienceIndex];
 
   return (
-    <div className="experience-section">
+    <div id="experience" className="experience-section">
       <SectionTitle name="Experience" />
       <div className="experience-container">
         <div className="left-toolbar">
@@ -20,6 +20,13 @@ function Experience() {
                   index === selectedExperienceIndex ? "selected-item" : ""
                 }
               >
+                <div
+                  className={
+                    index === selectedExperienceIndex
+                      ? "active-bar"
+                      : "inactive-bar"
+                  }
+                ></div>
                 {experience.company}
               </li>
             ))}
@@ -33,6 +40,7 @@ function Experience() {
             </div>
             <img
               src={selectedExperience.companyLogo}
+              // src="../Images/spur.png"
               alt="Company Logo"
               className="company-logo"
             />
@@ -43,9 +51,15 @@ function Experience() {
             ))}
           </ul>
           <p>
-            Technologies Used:
+            <b>Technologies Used:</b>
             <br />
-            {selectedExperience.technologies}
+            <div className="technologies-list">
+              {selectedExperience.technologies.map((tech, index) => (
+                <span key={index} className="technology-item">
+                  {tech}
+                </span>
+              ))}
+            </div>
           </p>
         </div>
       </div>
