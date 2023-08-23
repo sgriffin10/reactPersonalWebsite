@@ -16,7 +16,7 @@ function Introduction() {
           data-aos="zoom-out-right"
         >
           <Greeting name="Spencer" />
-          <Description text="Welcome to my website! Feel free to contact me at spencersdgriffin@gmail.com, 617-893-1229 or any of the links below..." />
+          <Description text="I'm a technology enthusiast with a knack for blending tech and business and a goal of creating intuitive and efficient solutions to the world's problems." />
           <ActionButtons />
         </div>
         <div className="col aos-init aos-animate" data-aos="zoom-out-left">
@@ -28,3 +28,5 @@ function Introduction() {
 }
 
 export default Introduction;
+
+// "Hello! I'm Spencer, a technology enthusiast with a knack for blending tech and business and a goal of creating intuitive and efficient solutions to the world's problems. Off the keyboard, I enjoy engaging in sports like Soccer and Golf, exploring geopolitics, and cultivating my garden."

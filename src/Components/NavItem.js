@@ -1,11 +1,17 @@
 import React from "react";
+import { Link } from "react-scroll";
 
-function NavItem({ href, children, duration, className = "" }) {
+function NavItem({ href, duration, children, className = "" }) {
   return (
-    <li data-aos="fade-down" data-aos-duration={duration}>
-      <a href={href} className={`${className}`}>
+    <li>
+      <Link
+        to={href.replace("#", "")}
+        smooth={true}
+        duration={duration}
+        className={className}
+      >
         {children}
-      </a>
+      </Link>
     </li>
   );
 }
