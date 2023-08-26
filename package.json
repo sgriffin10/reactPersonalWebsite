@@ -16,7 +16,7 @@
     "react-scroll": "^1.8.9",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://github.com/sgriffin10/reactPersonalWebsite/",
+  "homepage": "https://spencergriffin.me/build",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
